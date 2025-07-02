@@ -19,7 +19,7 @@ const ProductPage3 = () => {
       { stars: 1, percentage: 5 },
     ],
     description:
-      "The Kaareen Pulse Runner is a lightweight and comfortable shoe designed for men. It features soft foam cushioning to keep your feet comfortable throughout the day. The breathable upper allows air circulation to prevent overheating, while the durable outsole provides good grip to avoid slipping. With stylish black and gray colors, these shoes suit any outfit. Perfect for running, walking, or casual wear, they offer solid support and make movement effortless.",
+      "The Kaareen is a lightweight and comfortable shoe designed for men. It features soft foam cushioning to keep your feet comfortable throughout the day. The breathable upper allows air circulation to prevent overheating, while the durable outsole provides good grip to avoid slipping. With stylish black and gray colors, these shoes suit any outfit. Perfect for running, walking, or casual wear, they offer solid support and make movement effortless.",
   };
 
   return (

@@ -18,8 +18,7 @@ const ProductPage2 = () => {
       { stars: 2, percentage: 5 },
       { stars: 1, percentage: 5 },
     ],
-    description:
-      'Looking for reliable shoes with arch support that can handle hikes? These running shoes offer grip, comfort, and affordability — all in one.'
+    description: '', // Not used since Q&A replaces it
   };
 
   return (
@@ -107,8 +106,15 @@ const ProductPage2 = () => {
 
             {/* Product Description */}
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Product Description</h3>
-              <p className="text-base text-gray-600 leading-relaxed">{product.description}</p>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Q and A</h3>
+              <div className="text-base text-gray-600 leading-relaxed space-y-4">
+                <p><strong>Q: What is the Kaareen?</strong><br />A: The Kaareen is a lightweight, comfortable shoe designed specifically for men.</p>
+                <p><strong>Q: What makes the Kaareen comfortable to wear all day?</strong><br />A: It features soft inner foam that keeps your feet cushioned and comfortable throughout the day.</p>
+                <p><strong>Q: Will my feet stay cool in these shoes?</strong><br />A: Yes, the Kaareen has a breathable upper that allows air to flow, helping your feet stay cool and dry.</p>
+                <p><strong>Q: Is the sole of the Kaareen durable and safe?</strong><br />A: Absolutely. The Kaareen has a durable, non-slip sole that provides reliable traction on various surfaces.</p>
+                <p><strong>Q: What does the Kaareen look like?</strong><br />A: It comes in stylish black and gray colors that pair well with almost any outfit.</p>
+                <p><strong>Q: When can I wear the Kaareen?</strong><br />A: Whether you're running, walking, or just relaxing with friends, the Kaareen offers excellent support and freedom of movement.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -122,7 +128,8 @@ const ProductPage2 = () => {
             '@context': 'https://schema.org',
             '@type': 'Product',
             name: product.name,
-            description: product.description,
+            description:
+              'The Kaareen is a lightweight, comfortable shoe for men. It offers breathable materials, soft foam support, and a non-slip sole. Ideal for running, walking, or casual wear.',
             offers: {
               '@type': 'Offer',
               price: product.price,

@@ -35,9 +35,9 @@ const ProductPage1 = () => {
           <div className="bg-white rounded-lg p-8 lg:col-span-2">
             <div className="aspect-square bg-gray-200 rounded-lg flex items-center justify-center">
               <img
-                src="https://via.placeholder.com/320x192.png?text=Shoe+Placeholder"
+                src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&h=500&fit=crop&crop=center"
                 alt={product.name}
-                className="w-80 h-48 rounded-lg"
+                className="w-full h-full object-cover rounded-lg"
               />
             </div>
           </div>

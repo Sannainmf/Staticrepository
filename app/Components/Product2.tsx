@@ -18,7 +18,7 @@ const ProductPage2 = () => {
       { stars: 2, percentage: 5 },
       { stars: 1, percentage: 5 },
     ],
-    description: '', // Not used since Q&A replaces it
+    description: 'The Kaareen is a lightweight, comfortable shoe designed for men. It features soft inner foam that keeps your feet cushioned and comfortable throughout the day. The breathable upper allows air to flow, helping your feet stay cool and dry. Its durable, non-slip sole provides reliable traction on various surfaces. Stylish in black and gray, the Kaareen pairs well with almost any outfit. Whether youre running, walking, or relaxing with friends, these shoes offer excellent support and freedom of movement.',
   };
 
   return (
@@ -30,14 +30,35 @@ const ProductPage2 = () => {
         </nav>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-          {/* Product Image */}
+          {/* Product Images */}
           <div className="bg-white rounded-lg p-8 lg:col-span-2">
-            <div className="aspect-square bg-gray-200 rounded-lg flex items-center justify-center">
-              <img
-                src="https://via.placeholder.com/320x192.png?text=Shoe+Placeholder"
-                alt={product.name}
-                className="w-80 h-48 rounded-lg"
-              />
+            <div className="grid grid-cols-1 gap-4">
+              {/* Main Image */}
+              <div className="aspect-square bg-gray-200 rounded-lg overflow-hidden">
+                <img
+                  src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=600&fit=crop&crop=center"
+                  alt={`${product.name} - Main View`}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              
+              {/* Secondary Images */}
+              <div className="grid grid-cols-2 gap-4">
+                <div className="aspect-square bg-gray-200 rounded-lg overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=300&h=300&fit=crop&crop=center"
+                    alt={`${product.name} - Side View`}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="aspect-square bg-gray-200 rounded-lg overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=300&h=300&fit=crop&crop=center"
+                    alt={`${product.name} - Detail View`}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
             </div>
           </div>
 
@@ -106,15 +127,8 @@ const ProductPage2 = () => {
 
             {/* Product Description */}
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Q and A</h3>
-              <div className="text-base text-gray-600 leading-relaxed space-y-4">
-                <p><strong>Q: What is the Kaareen?</strong><br />A: The Kaareen is a lightweight, comfortable shoe designed specifically for men.</p>
-                <p><strong>Q: What makes the Kaareen comfortable to wear all day?</strong><br />A: It features soft inner foam that keeps your feet cushioned and comfortable throughout the day.</p>
-                <p><strong>Q: Will my feet stay cool in these shoes?</strong><br />A: Yes, the Kaareen has a breathable upper that allows air to flow, helping your feet stay cool and dry.</p>
-                <p><strong>Q: Is the sole of the Kaareen durable and safe?</strong><br />A: Absolutely. The Kaareen has a durable, non-slip sole that provides reliable traction on various surfaces.</p>
-                <p><strong>Q: What does the Kaareen look like?</strong><br />A: It comes in stylish black and gray colors that pair well with almost any outfit.</p>
-                <p><strong>Q: When can I wear the Kaareen?</strong><br />A: Whether you&apos;re running, walking, or just relaxing with friends, the Kaareen offers excellent support and freedom of movement.</p>
-              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Product Description</h3>
+              <p className="text-base text-gray-600 leading-relaxed">{product.description}</p>
             </div>
           </div>
         </div>
@@ -128,8 +142,7 @@ const ProductPage2 = () => {
             '@context': 'https://schema.org',
             '@type': 'Product',
             name: product.name,
-            description:
-              'The Kaareen is a lightweight, comfortable shoe for men. It offers breathable materials, soft foam support, and a non-slip sole. Ideal for running, walking, or casual wear.',
+            description: product.description,
             offers: {
               '@type': 'Offer',
               price: product.price,

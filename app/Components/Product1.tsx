@@ -18,8 +18,9 @@ const ProductPage = () => {
       { stars: 2, percentage: 5 },
       { stars: 1, percentage: 5 },
     ],
-    description:
-      'The Kaareen Pulse Runner is engineered for optimal performance and comfort. Featuring a breathable mesh upper, responsive cushioning, and a durable outsole, these shoes are perfect for both casual runs and intense training sessions. Experience the perfect blend of style and functionality with the Pulse Runner.',
+    description: `
+The Kaareen Pulse Runner 1 is the ultimate running shoe designed to elevate your performance to new heights. Crafted with cutting-edge technology, it features a lightweight and breathable mesh upper that keeps your feet cool and comfortable during long runs or intense workouts. The advanced responsive cushioning system absorbs impact and provides excellent energy return, reducing fatigue and helping you push further with every step. Engineered with a durable rubber outsole, the Pulse Runner 1 offers superior traction and grip on a variety of surfaces, ensuring stability whether you’re sprinting on the track or jogging through city streets. Its sleek and modern design combines both style and functionality, making it a versatile choice for both athletes and casual wearers. This shoe is tailored specifically for men who demand both comfort and performance, available in a wide range of sizes to ensure the perfect fit. Whether you're training for a marathon, hitting the gym, or simply looking for everyday comfort, the Kaareen Pulse Runner 1 delivers unmatched support, durability, and style. With over 120 reviews and a strong 4.5-star rating, this shoe has quickly become a favorite among runners and fitness enthusiasts alike. Experience the perfect balance of innovation and classic design with the Kaareen Pulse Runner 1 — your new go-to for all your running needs.
+`,
   };
 
   return (
@@ -108,7 +109,7 @@ const ProductPage = () => {
             {/* Product Description */}
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Product Description</h3>
-              <p className="text-base text-gray-600 leading-relaxed">{product.description}</p>
+              <p className="whitespace-pre-line text-base text-gray-600 leading-relaxed">{product.description}</p>
             </div>
           </div>
         </div>

@@ -18,8 +18,17 @@ const ProductPage2 = () => {
       { stars: 2, percentage: 5 },
       { stars: 1, percentage: 5 },
     ],
-    description:
-      'The Kaareen Pulse Runner is engineered for optimal performance and comfort. Featuring a breathable mesh upper, responsive cushioning, and a durable outsole, these shoes are perfect for both casual runs and intense training sessions. Experience the perfect blend of style and functionality with the Pulse Runner.',
+    description: [
+      "The Kaareen Pulse Runner 2 offers a breathable mesh upper that provides excellent ventilation to keep your feet cool during long runs.",
+
+      "Equipped with responsive cushioning technology, these shoes absorb impact and provide energy return, helping reduce fatigue with every step.",
+
+      "The durable rubber outsole ensures strong grip and traction across various surfaces, whether you're on the track or city pavement.",
+
+      "Designed with a sleek, modern look, the Pulse Runner 2 balances style and performance for athletes and casual wearers alike.",
+      
+      "Available in a wide range of sizes, these running shoes deliver unmatched comfort, support, and durability for your daily training needs."
+    ],
   };
 
   return (
@@ -108,7 +117,11 @@ const ProductPage2 = () => {
             {/* Product Description */}
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Product Description</h3>
-              <p className="text-base text-gray-600 leading-relaxed">{product.description}</p>
+              <div className="text-base text-gray-600 leading-relaxed space-y-4">
+                {product.description.map((paragraph, idx) => (
+                  <p key={idx}>{paragraph}</p>
+                ))}
+              </div>
             </div>
           </div>
         </div>
@@ -122,7 +135,7 @@ const ProductPage2 = () => {
             '@context': 'https://schema.org',
             '@type': 'Product',
             name: product.name,
-            description: product.description,
+            description: product.description.join(' '),  // Joining paragraphs for structured data
             offers: {
               '@type': 'Offer',
               price: product.price,

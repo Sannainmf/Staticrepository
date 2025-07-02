@@ -113,7 +113,7 @@ const ProductPage2 = () => {
                 <p><strong>Q: Will my feet stay cool in these shoes?</strong><br />A: Yes, the Kaareen has a breathable upper that allows air to flow, helping your feet stay cool and dry.</p>
                 <p><strong>Q: Is the sole of the Kaareen durable and safe?</strong><br />A: Absolutely. The Kaareen has a durable, non-slip sole that provides reliable traction on various surfaces.</p>
                 <p><strong>Q: What does the Kaareen look like?</strong><br />A: It comes in stylish black and gray colors that pair well with almost any outfit.</p>
-                <p><strong>Q: When can I wear the Kaareen?</strong><br />A: Whether you're running, walking, or just relaxing with friends, the Kaareen offers excellent support and freedom of movement.</p>
+                <p><strong>Q: When can I wear the Kaareen?</strong><br />A: Whether you&apos;re running, walking, or just relaxing with friends, the Kaareen offers excellent support and freedom of movement.</p>
               </div>
             </div>
           </div>

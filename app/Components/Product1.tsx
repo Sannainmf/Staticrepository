@@ -6,7 +6,7 @@ const ProductPage1 = () => {
   const [selectedSize, setSelectedSize] = useState('');
   const sizes = ['7', '7.5', '8', '8.5', '9', '9.5', '10', '10.5', '11', '11.5', '12'];
   const product = {
-    name: 'Kaareen',
+    name: 'Cheap Running Shoes With Arch Support for Hiking - Kaareen',
     category: "Men's Running Shoes",
     price: 120,
     rating: 4.5,
@@ -19,7 +19,7 @@ const ProductPage1 = () => {
       { stars: 1, percentage: 5 },
     ],
     description:
-      'The Kaareen is a light and comfy shoe for men. It has soft foam inside to keep your feet happy all day. The top part lets air in so your feet don’t get too hot. The bottom is tough and helps you not slip. It looks cool too, with black and gray colors that go with any outfit. Wear these shoes when you run, walk, or just hang out with friends. They give you good support and make it easy to move.',
+      'These lightweight trail runners are built with a cushioned midsole and firm arch support. Great for hiking rough paths or daily jogs',
   };
 
   return (

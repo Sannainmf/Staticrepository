@@ -19,7 +19,7 @@ const ProductPage2 = () => {
       { stars: 1, percentage: 5 },
     ],
     description:
-      'The Kaareen delivers lightweight sophistication for men, engineered with plush cushioning to sustain all-day comfort. Its breathable mesh upper optimizes airflow, preventing overheating. A robust outsole enhances stability and slip resistance on varied terrains. Styled in versatile black and gray, it complements diverse wardrobes. Whether running, walking, or socializing, this shoe provides exceptional support and natural mobility. Merging contemporary aesthetics with advanced performance, it ensures confidence, agility, and enduring ease, seamlessly transitioning from athletic pursuits to casual urban engagements.',
+      'Looking for reliable shoes with arch support that can handle hikes? These running shoes offer grip, comfort, and affordability — all in one.'
   };
 
   return (

@@ -2,11 +2,11 @@
 
 import React, { useState } from 'react';
 
-const ProductPage = () => {
+const ProductPage1 = () => {
   const [selectedSize, setSelectedSize] = useState('');
   const sizes = ['7', '7.5', '8', '8.5', '9', '9.5', '10', '10.5', '11', '11.5', '12'];
   const product = {
-    name: 'Kaareen Pulse Runner 1',
+    name: 'Kaareen',
     category: "Men's Running Shoes",
     price: 120,
     rating: 4.5,
@@ -18,9 +18,8 @@ const ProductPage = () => {
       { stars: 2, percentage: 5 },
       { stars: 1, percentage: 5 },
     ],
-    description: `
-The Kaareen Pulse Runner 1 is the ultimate running shoe designed to elevate your performance to new heights. Crafted with cutting-edge technology, it features a lightweight and breathable mesh upper that keeps your feet cool and comfortable during long runs or intense workouts. The advanced responsive cushioning system absorbs impact and provides excellent energy return, reducing fatigue and helping you push further with every step. Engineered with a durable rubber outsole, the Pulse Runner 1 offers superior traction and grip on a variety of surfaces, ensuring stability whether you’re sprinting on the track or jogging through city streets. Its sleek and modern design combines both style and functionality, making it a versatile choice for both athletes and casual wearers. This shoe is tailored specifically for men who demand both comfort and performance, available in a wide range of sizes to ensure the perfect fit. Whether you're training for a marathon, hitting the gym, or simply looking for everyday comfort, the Kaareen Pulse Runner 1 delivers unmatched support, durability, and style. With over 120 reviews and a strong 4.5-star rating, this shoe has quickly become a favorite among runners and fitness enthusiasts alike. Experience the perfect balance of innovation and classic design with the Kaareen Pulse Runner 1 — your new go-to for all your running needs.
-`,
+    description:
+      'The Kaareen is a light and comfy shoe for men. It has soft foam inside to keep your feet happy all day. The top part lets air in so your feet don’t get too hot. The bottom is tough and helps you not slip. It looks cool too, with black and gray colors that go with any outfit. Wear these shoes when you run, walk, or just hang out with friends. They give you good support and make it easy to move.',
   };
 
   return (
@@ -109,7 +108,7 @@ The Kaareen Pulse Runner 1 is the ultimate running shoe designed to elevate your
             {/* Product Description */}
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Product Description</h3>
-              <p className="whitespace-pre-line text-base text-gray-600 leading-relaxed">{product.description}</p>
+              <p className="text-base text-gray-600 leading-relaxed">{product.description}</p>
             </div>
           </div>
         </div>
@@ -141,4 +140,4 @@ The Kaareen Pulse Runner 1 is the ultimate running shoe designed to elevate your
   );
 };
 
-export default ProductPage;
+export default ProductPage1;

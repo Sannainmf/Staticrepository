@@ -4,8 +4,8 @@ import ProductPage from '../Components/Product1';
 
 
 export const metadata: Metadata = {
-  title: 'StrideForm Pulse Runner',
-  description: 'Shop the StrideForm Pulse Runner, engineered for performance and comfort.',
+  title: 'Kaareen',
+  description: 'Shop the Kaareen, engineered for performance and comfort.',
 };
 
 export default function Product() {

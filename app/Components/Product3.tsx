@@ -2,11 +2,11 @@
 
 import React, { useState } from 'react';
 
-const ProductPage2 = () => {
+const ProductPage3 = () => {
   const [selectedSize, setSelectedSize] = useState('');
   const sizes = ['7', '7.5', '8', '8.5', '9', '9.5', '10', '10.5', '11', '11.5', '12'];
   const product = {
-    name: 'Kaareen',
+    name: 'Kaareen Pulse Runner 1',
     category: "Men's Running Shoes",
     price: 120,
     rating: 4.5,
@@ -19,7 +19,7 @@ const ProductPage2 = () => {
       { stars: 1, percentage: 5 },
     ],
     description:
-      'The Kaareen delivers lightweight sophistication for men, engineered with plush cushioning to sustain all-day comfort. Its breathable mesh upper optimizes airflow, preventing overheating. A robust outsole enhances stability and slip resistance on varied terrains. Styled in versatile black and gray, it complements diverse wardrobes. Whether running, walking, or socializing, this shoe provides exceptional support and natural mobility. Merging contemporary aesthetics with advanced performance, it ensures confidence, agility, and enduring ease, seamlessly transitioning from athletic pursuits to casual urban engagements.',
+      "The Kaareen Pulse Runner is a lightweight and comfortable shoe designed for men. It features soft foam cushioning to keep your feet comfortable throughout the day. The breathable upper allows air circulation to prevent overheating, while the durable outsole provides good grip to avoid slipping. With stylish black and gray colors, these shoes suit any outfit. Perfect for running, walking, or casual wear, they offer solid support and make movement effortless.",
   };
 
   return (
@@ -140,4 +140,4 @@ const ProductPage2 = () => {
   );
 };
 
-export default ProductPage2;
+export default ProductPage3;

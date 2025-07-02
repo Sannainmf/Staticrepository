@@ -15,7 +15,6 @@ const Navigation = () => {
         </div>
         <div className="flex gap-8 items-center">
 
-            
           <Link href="/">
             <button
               onClick={() => setCurrentPage('home')}
@@ -27,31 +26,38 @@ const Navigation = () => {
             </button>
           </Link>
 
-          
           <Link href="/product">
             <button
-              onClick={() => setCurrentPage('product')}
+              onClick={() => setCurrentPage('productA')}
               className={`text-base font-semibold transition-colors duration-300 ${
-                currentPage === 'product' ? 'text-gray-900 border-b-2 border-gray-900' : 'text-gray-500'
+                currentPage === 'productA' ? 'text-gray-900 border-b-2 border-gray-900' : 'text-gray-500'
               } hover:text-gray-900 px-2 py-1`}
             >
-              Product 1
+              Product A
             </button>
           </Link>
 
           <Link href="/product/product2meta">
             <button
-              onClick={() => setCurrentPage('product2meta')}
+              onClick={() => setCurrentPage('productB')}
               className={`text-base font-semibold transition-colors duration-300 ${
-                currentPage === 'product2meta' ? 'text-gray-900 border-b-2 border-gray-900' : 'text-gray-500'
+                currentPage === 'productB' ? 'text-gray-900 border-b-2 border-gray-900' : 'text-gray-500'
               } hover:text-gray-900 px-2 py-1`}
             >
-              Product 2
+              Product B
             </button>
           </Link>
 
-
-    
+          <Link href="/product/product3meta">
+            <button
+              onClick={() => setCurrentPage('product3meta')}
+              className={`text-base font-semibold transition-colors duration-300 ${
+                currentPage === 'product3meta' ? 'text-gray-900 border-b-2 border-gray-900' : 'text-gray-500'
+              } hover:text-gray-900 px-2 py-1`}
+            >
+              Product C
+            </button>
+          </Link>
 
         </div>
       </div>

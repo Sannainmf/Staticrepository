@@ -19,8 +19,8 @@ const ProductPage1 = () => {
       { stars: 1, percentage: 5 },
     ],
     description:
-      'The Kaareen Running Shoes are engineered for optimal running performance and comfort. These men\'s running shoes feature a breathable mesh upper, responsive running shoe cushioning, and a durable running shoe outsole. Perfect for running, jogging, and running training sessions. These running shoes are ideal for men who need reliable running shoes for both casual running and intense running workouts. Experience superior running performance with Kaareen Running Shoes.',
-    keywords: 'running shoes, men\'s running shoes, athletic shoes, jogging shoes, training shoes, sports shoes, running sneakers',
+      "The Kaareen Running Shoes are engineered for optimal running performance and comfort. These men's running shoes feature a breathable mesh upper, responsive running shoe cushioning, and a durable running shoe outsole. Perfect for running, jogging, and running training sessions. These running shoes are ideal for men who need reliable running shoes for both casual running and intense running workouts. Experience superior running performance with Kaareen Running Shoes.",
+    keywords: "running shoes, men's running shoes, athletic shoes, jogging shoes, training shoes, sports shoes, running sneakers",
     features: [
       'Premium running shoes construction',
       'Breathable running shoe mesh upper',

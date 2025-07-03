@@ -27,7 +27,7 @@ const ProductPage3 = () => {
       <div className="max-w-6xl mx-auto px-6 py-8">
         {/* Breadcrumb */}
         <nav className="text-sm text-gray-500 text-right mb-8">
-          <span>Shoes</span> / <span className="text-gray-900">{product.name}</span>
+          <span>Shoes</span> / <h2 className="text-gray-900 inline text-sm font-normal">{product.name}</h2>
         </nav>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">

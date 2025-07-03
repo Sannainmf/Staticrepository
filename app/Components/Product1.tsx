@@ -6,7 +6,7 @@ const ProductPage1 = () => {
   const [selectedSize, setSelectedSize] = useState('');
   const sizes = ['7', '7.5', '8', '8.5', '9', '9.5', '10', '10.5', '11', '11.5', '12'];
   const product = {
-    name: 'Men\'s Running Shoes - Kaareen Pulse Runner 1',
+    name: "Men's Running Shoes - Kaareen Pulse Runner 1",
     category: "Men's Running Shoes",
     price: 120,
     rating: 4.5,
@@ -19,7 +19,7 @@ const ProductPage1 = () => {
       { stars: 1, percentage: 5 },
     ],
     description:
-      'These men\'s running shoes are engineered for optimal performance and comfort. The Kaareen Pulse Runner men\'s running shoes feature a breathable mesh upper, responsive cushioning, and a durable outsole. Perfect for both casual runs and intense training sessions, these men\'s running shoes deliver the perfect blend of style and functionality for every runner.',
+      "These men's running shoes are engineered for optimal performance and comfort. The Kaareen Pulse Runner men's running shoes feature a breathable mesh upper, responsive cushioning, and a durable outsole. Perfect for both casual runs and intense training sessions, these men's running shoes deliver the perfect blend of style and functionality for every runner.",
   };
 
   return (

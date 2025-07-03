@@ -42,7 +42,7 @@ const ProductPage1 = () => {
       <div className="max-w-6xl mx-auto px-6 py-8">
         {/* Breadcrumb */}
         <nav className="text-sm text-gray-500 text-right mb-8">
-          <span>Running Shoes</span> / <span>Men's Running Shoes</span> / <span className="text-gray-900">{product.name}</span>
+          <span>Running Shoes</span> / <span>Men&apos;s Running Shoes</span> / <span className="text-gray-900">{product.name}</span>
         </nav>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
@@ -58,7 +58,7 @@ const ProductPage1 = () => {
             
             {/* Image Caption with Keywords */}
             <p className="text-center text-sm text-gray-600 mt-4">
-              Kaareen Running Shoes - Premium Men's Running Shoes for Training and Daily Running
+              Kaareen Running Shoes - Premium Men&apos;s Running Shoes for Training and Daily Running
             </p>
           </div>
 
@@ -152,8 +152,8 @@ const ProductPage1 = () => {
             <div>
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Why Choose These Running Shoes?</h3>
               <p className="text-base text-gray-600 leading-relaxed mb-4">
-                These men's running shoes are designed for serious runners who demand the best running shoes performance. 
-                Whether you're looking for running shoes for daily training or running shoes for competitive racing, 
+                These men&apos;s running shoes are designed for serious runners who demand the best running shoes performance. 
+                Whether you&apos;re looking for running shoes for daily training or running shoes for competitive racing, 
                 the Kaareen Running Shoes deliver exceptional comfort and durability.
               </p>
               <p className="text-base text-gray-600 leading-relaxed">

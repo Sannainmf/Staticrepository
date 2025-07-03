@@ -6,8 +6,8 @@ const ProductPage1 = () => {
   const [selectedSize, setSelectedSize] = useState('');
   const sizes = ['7', '7.5', '8', '8.5', '9', '9.5', '10', '10.5', '11', '11.5', '12'];
   const product = {
-    name: "Men's Running Shoes - Kaareen Pulse Runner 1",
-    category: "Men's Running Shoes",
+    name: "Men&apos;s Running Shoes - Kaareen Pulse Runner 1",
+    category: "Men&apos;s Running Shoes",
     price: 120,
     rating: 4.5,
     reviews: 120,
@@ -19,7 +19,7 @@ const ProductPage1 = () => {
       { stars: 1, percentage: 5 },
     ],
     description:
-      "These men's running shoes are engineered for optimal performance and comfort. The Kaareen Pulse Runner men's running shoes feature a breathable mesh upper, responsive cushioning, and a durable outsole. Perfect for both casual runs and intense training sessions, these men's running shoes deliver the perfect blend of style and functionality for every runner.",
+      "These men&apos;s running shoes are engineered for optimal performance and comfort. The Kaareen Pulse Runner men&apos;s running shoes feature a breathable mesh upper, responsive cushioning, and a durable outsole. Perfect for both casual runs and intense training sessions, these men&apos;s running shoes deliver the perfect blend of style and functionality for every runner.",
   };
 
   return (
@@ -27,7 +27,7 @@ const ProductPage1 = () => {
       <div className="max-w-6xl mx-auto px-6 py-8">
         {/* Breadcrumb */}
         <nav className="text-sm text-gray-500 text-right mb-8">
-          <span>Men's Running Shoes</span> / <span className="text-gray-900">{product.name}</span>
+          <span>Men&apos;s Running Shoes</span> / <span className="text-gray-900">{product.name}</span>
         </nav>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
@@ -107,16 +107,16 @@ const ProductPage1 = () => {
 
             {/* Product Description */}
             <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">Men's Running Shoes Details</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">Men&apos;s Running Shoes Details</h3>
               <p className="text-base text-gray-600 leading-relaxed">{product.description}</p>
               
               {/* Additional SEO Content */}
               <div className="mt-4 space-y-2">
                 <h4 className="text-md font-semibold text-gray-900">Key Features:</h4>
                 <ul className="text-sm text-gray-600 space-y-1">
-                  <li>• Premium men's running shoes with breathable mesh</li>
-                  <li>• Responsive cushioning for men's running shoes</li>
-                  <li>• Durable outsole designed for men's running shoes</li>
+                  <li>• Premium men&apos;s running shoes with breathable mesh</li>
+                  <li>• Responsive cushioning for men&apos;s running shoes</li>
+                  <li>• Durable outsole designed for men&apos;s running shoes</li>
                   <li>• Comfortable fit for daily running and training</li>
                 </ul>
               </div>
